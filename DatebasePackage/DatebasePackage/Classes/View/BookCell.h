@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  BookCell.h
 //  DatebasePackage
 //
 //  Created by Mac on 15/10/18.
@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Book.h"
 
-@interface ViewController : UIViewController
+@interface BookCell : UITableViewCell
 
+//数据
+@property (nonatomic, strong) Book *book;
 
 @end
-
